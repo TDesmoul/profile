@@ -7,57 +7,75 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container">
-      <div class="card-white padded-20-30 marged-20-0 shadow-orange-centered-big text-center">
-        <img src="images/moi.png" alt="Thomas Desmoulins" class="avatar-circle border-green-with-white-space">
-        <h1>Thomas Desmoulins</h1>
-        <h2>Consultant/Dévelopeur Freelance</h2>
-        <p>De la jugeotte, du bon sens, des bonnes pratiques et un peu de savoir faire web me permettent d'accompagner les entreprises, petites ou moins petites, dans leurs projets Internet</p>
-        <a href="#" class="btn-green-border">À vous de voir ;)</a>
-      </div>
-      <div class="card-white padded-20-30 marged-20-0 shadow-orange-centered-big text-center">
-        <h2>Retrouvez moi sur les réseaux :</h2>
-        <ul class="list-unstyled list-inline">
-          <li><a href="https://www.facebook.com/tdesmoulins" target="_blank"><i class="fa fa-facebook"></i> Facebook</a></li>
-          <li class="color-green">|</li>
-          <li><a href="https://www.linkedin.com/in/thomas-desmoulins-a393a48/" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
-          <li class="color-green">|</li>
-          <li><a href="https://github.com/TDesmoul?tab=repositories" target="_blank"><i class="fa fa-github"></i> Github</a></li>
-        </ul>
-      </div>
-      <div class="card-white padded-20-30 marged-20-0 shadow-orange-centered-big">
-        <h2 class="text-center">Ça peut vous aider à voir qui je suis : voici mes films préférés</h2>
-        <table id="favorite-films">
-          <tr>
-            <td><img src="images/big_lebowski.jpg" alt="The Big Lebowski" class="img-film border-green-with-white-space"></td>
-            <td>
-              <h3>The Big Lebowski</h3>
-              <p>J'ai longtemps considéré que c'était le meilleur film de tous les temps. Pour en être sûr, je l'ai regardé environ 2200 fois. Les personnages sont magnifiquement travaillés et servis par des acteurs géniaux. L'histoire est absurde comme je les aime. Les dialogues sont grandioses. Je crois que toutes les phrases du film, et même tous les mots, ont été sous-pesés : ce n'est peut-être qu'au 300ème visionnage que j'ai enfin perçu toutes les subtilités des dialogues. Attention: à ne surtout pas voir en VF, c'est de l'ordre du crime.</p>
-            </td>
-          </tr>
-          <tr>
-            <td><img src="images/interstellar.jpg" alt="Interstellar" class="img-film border-green-with-white-space"></td>
-            <td>
-              <h3>Interstellar</h3>
-              <p>J'adore Christopher Nolan : il fait vraiment parti, pour moi, du panthéon des plus grand réalisateur de tous les temps. Ses films nous plongent toujours dans un univers à part. À la fin, on se dit toujours : "Hum, je crois que je vois, mais il va falloir le revoir pour tout bien comprendre!" Et on a beau les revoir, on a toujours ce sentiment. Pourquoi? Je crois que c'est voulu: il ne faut pas forcément aller chercher le moindre détail pour comprendre, il faut prendre certaines choses comme elles sont, et se laisser porter. Une chose est sûre: on n'est pas déçu du voyage !</p>
-            </td>
-          </tr>
-          <tr>
-            <td><img src="images/django.jpg" alt="Django Unchained" class="img-film border-green-with-white-space"></td>
-            <td>
-              <h3>Django Unchained</h3>
-              <p>J'adore Tarantino!! Dans Django, il y a tout ce que j'aime chez lui : le rythme fait de lenteur et d'à coup violent, la musique, les personnages, les dialogues et les monologues. Le tout dans une ambiance Western et avec des acteurs magiques, c'est vraiment du pur kif!!</p>
-            </td>
-          </tr>
-        </table>
-      </div>
-      <div class="card-white padded-20-30 marged-20-0 shadow-orange-centered-big text-center">
-        <h2>About this page</h2>
-        <p>This page has been coded for the preparation of a lecture for le Wagon Paris.</p>
-        <ul class="list-inline list-unstyled">
-          <li><a href="#"><i class="fa fa-star"></i></a></li>
-          <li><a href="#"><i class="fa fa-heart"></i></a></li>
-        </ul>
+    <div id="sidebar" class="shadow-orange-centered-big">
+      <ul class="list-unstyled text-center">
+        <li><a href="#profile"><i class="fa fa-info"></i></a></li>
+        <li><a href="#social"><i class="fa fa-rocket"></i></a></li>
+        <li><a href="#films"><i class="fa fa-film"></i></a></li>
+        <li><a href="#about"><i class="fa fa-code"></i></a></li>
+      </ul>
+    </div>
+    <div id="page-content">
+      <div class="container">
+        <div id="profile" class="anchor">
+          <div class="card-white padded-20-30 marged-20-0 shadow-orange-centered-big text-center">
+            <img src="images/moi.png" alt="Thomas Desmoulins" class="avatar-circle border-green-with-white-space">
+            <h1>Thomas Desmoulins</h1>
+            <h2>Consultant/Dévelopeur Freelance</h2>
+            <p>De la jugeotte, du bon sens, des bonnes pratiques et un peu de savoir faire web me permettent d'accompagner les entreprises, petites ou moins petites, dans leurs projets Internet</p>
+            <a href="#" class="btn-green-border">À vous de voir ;)</a>
+          </div>
+        </div>
+        <div id="social" class="anchor">
+          <div class="card-white padded-20-30 marged-20-0 shadow-orange-centered-big text-center">
+            <h2>Retrouvez moi sur les réseaux :</h2>
+            <ul class="list-unstyled list-inline">
+              <li><a href="https://www.facebook.com/tdesmoulins" target="_blank"><i class="fa fa-facebook"></i> Facebook</a></li>
+              <li class="color-green">|</li>
+              <li><a href="https://www.linkedin.com/in/thomas-desmoulins-a393a48/" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+              <li class="color-green">|</li>
+              <li><a href="https://github.com/TDesmoul?tab=repositories" target="_blank"><i class="fa fa-github"></i> Github</a></li>
+            </ul>
+          </div>
+        </div>
+        <div id="films" class="anchor">
+          <div class="card-white padded-20-30 marged-20-0 shadow-orange-centered-big">
+            <h2 class="text-center">Ça peut vous aider à voir qui je suis : voici mes films préférés</h2>
+            <table id="favorite-films">
+              <tr>
+                <td><img src="images/big_lebowski.jpg" alt="The Big Lebowski" class="img-film border-green-with-white-space"></td>
+                <td>
+                  <h3>The Big Lebowski</h3>
+                  <p>J'ai longtemps considéré que c'était le meilleur film de tous les temps. Pour en être sûr, je l'ai regardé environ 2200 fois. Les personnages sont magnifiquement travaillés et servis par des acteurs géniaux. L'histoire est absurde comme je les aime. Les dialogues sont grandioses. Je crois que toutes les phrases du film, et même tous les mots, ont été sous-pesés : ce n'est peut-être qu'au 300ème visionnage que j'ai enfin perçu toutes les subtilités des dialogues. Attention: à ne surtout pas voir en VF, c'est de l'ordre du crime.</p>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="images/interstellar.jpg" alt="Interstellar" class="img-film border-green-with-white-space"></td>
+                <td>
+                  <h3>Interstellar</h3>
+                  <p>J'adore Christopher Nolan : il fait vraiment parti, pour moi, du panthéon des plus grand réalisateur de tous les temps. Ses films nous plongent toujours dans un univers à part. À la fin, on se dit toujours : "Hum, je crois que je vois, mais il va falloir le revoir pour tout bien comprendre!" Et on a beau les revoir, on a toujours ce sentiment. Pourquoi? Je crois que c'est voulu: il ne faut pas forcément aller chercher le moindre détail pour comprendre, il faut prendre certaines choses comme elles sont, et se laisser porter. Une chose est sûre: on n'est pas déçu du voyage !</p>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="images/django.jpg" alt="Django Unchained" class="img-film border-green-with-white-space"></td>
+                <td>
+                  <h3>Django Unchained</h3>
+                  <p>J'adore Tarantino!! Dans Django, il y a tout ce que j'aime chez lui : le rythme fait de lenteur et d'à coup violent, la musique, les personnages, les dialogues et les monologues. Le tout dans une ambiance Western et avec des acteurs magiques, c'est vraiment du pur kif!!</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div id="about" class="anchor">
+          <div class="card-white padded-20-30 marged-20-0 shadow-orange-centered-big text-center">
+            <h2>About this page</h2>
+            <p>This page has been coded for the preparation of a lecture for le Wagon Paris.</p>
+            <ul class="list-inline list-unstyled">
+              <li><a href="#"><i class="fa fa-star"></i></a></li>
+              <li><a href="#"><i class="fa fa-heart"></i></a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </body>
