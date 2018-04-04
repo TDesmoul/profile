@@ -1,0 +1,116 @@
+body {
+  background-color: #fffeed;
+  font-family: 'Gaegu', cursive;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+h1, h2 {
+  font-family: 'Amatic SC', cursive;
+  color: #5CCAA3;
+}
+
+h1 {
+  font-size: 1.4em;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 1.1em;
+  letter-spacing: 3px;
+}
+
+h3 {
+  font-size: 1em;
+  letter-spacing: 1px;
+  color: #5CCAA3;
+}
+
+a, a:focus {
+  color: #5CCAA3;
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.7;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  max-width: 900px;
+  min-width: 250px;
+}
+@media (max-width: 700px) {
+  .container {
+    width: 90%;
+  }
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px 2px #ffdbb5;
+}
+
+.padded-20-30 {
+  padding: 20px 30px;
+}
+
+.marged-20-0 {
+  margin: 20px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+.color-green {
+  color: #5CCAA3;
+}
+
+.avatar-circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.border-green-with-white-space {
+  padding: 3px;
+  border: 2px solid #5CCAA3;
+}
+
+.btn-green-border {
+  padding: 2px 20px;
+  border: 1px solid #5CCAA3;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0px 0px 2px #5CCAA3;
+  transition: box-shadow 0.5s;
+}
+.btn-green-border:hover {
+  opacity: 1;
+  border: none;
+  box-shadow: 0px 0px 4px 2px #5CCAA3;
+}
+
+.list-unstyled {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.img-film {
+  max-width: 130px;
+  max-height: 300px;
+}
+
+#favorite-films td {
+  padding: 5px;
+}
+
+#favorite-films p {
+  font-size: 0.9em;
+}
